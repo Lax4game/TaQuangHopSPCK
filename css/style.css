@@ -412,7 +412,7 @@ body {
     text-decoration: none; 
     color: rgb(249, 77, 255);          
     font-family:"Sekuya" ,"popins", sans-serif;
-    background-image:url(../asset/back.jpg);
+    background-image:url('../asset/back.jpg');
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -854,6 +854,7 @@ body {
     }
 
 }
+
 
 
 
