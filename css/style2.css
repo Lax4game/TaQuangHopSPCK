@@ -1,6 +1,6 @@
 body{
   /* 1. Đặt hình ảnh làm nền */
-  background-image: url('/asset/img/25e129f1fc122f74a6ba2a1a4db3184f.gif'); 
+  background-image: url('../img/25e129f1fc122f74a6ba2a1a4db3184f.gif'); 
 
   /* 2. Đảm bảo hình ảnh lấp đầy toàn bộ */
   background-size: cover; 
@@ -79,7 +79,7 @@ box-shadow: 0px 0px 27px 10px rgba(55,55,250,0.86);
     margin-top: -200px;
     
     /* Ảnh nền mặc định là QR code */
-    background-image: url('/asset/img/qr bank.png');
+    background-image: url('../img/qr bank.png');
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out;
@@ -87,7 +87,7 @@ box-shadow: 0px 0px 27px 10px rgba(55,55,250,0.86);
 
 /* Khi hover, thay đổi ảnh nền thành avatar */
 .container-qr:hover .qr-avt-img {
-    background-image: url('/asset/img/avt.jpg');
+    background-image: url('../img/avt.jpg');
 }
 .container-qr::before {
   content: '';
@@ -318,3 +318,4 @@ box-shadow: 0px 0px 27px 10px rgba(55,55,250,0.86);
     margin-top: 10px;
   }
 }
+
