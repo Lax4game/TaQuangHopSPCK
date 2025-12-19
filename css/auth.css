@@ -12,7 +12,7 @@
 body {
   width: 100%;
   min-height: 100vh; /* QUAN TRỌNG: Giúp background luôn cao bằng màn hình */
-  background-image: url(asset/back.jpg);
+  background-image: url('../asset/back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
