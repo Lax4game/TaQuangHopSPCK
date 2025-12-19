@@ -50,6 +50,6 @@ form.addEventListener("submit", (e) => {
     }
 
     alert("User created successfully, please login");
-    location.href = "/html/login.html";
+    location.href = "login.html";
   }
 });
