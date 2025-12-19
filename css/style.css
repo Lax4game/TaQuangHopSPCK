@@ -40,7 +40,7 @@ a {
     text-decoration: none; 
     color: rgb(249, 77, 255);          
     font-family:"Sekuya" ,"popins", sans-serif;
-    background-image:url(./asset/back.jpg);
+    background-image:url(../asset/back.jpg);
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -54,7 +54,7 @@ a:hover{
     color: red;
     transition: transform 0.3s ease;
     transform: scale(1.1);
-    background-image:url(./asset/back.jpg);
+    background-image:url(../asset/back.jpg);
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -110,7 +110,7 @@ a:hover{
     flex-direction: column;
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 20px; 
-    background-image: url(asset/back.jpg);
+    background-image: url(../asset/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -132,7 +132,7 @@ a:hover{
     font-family: "Sekuya", sans-serif;
     font-size: 15px;
     font-weight: bold;
-    background-image: url(asset/back.jpg);
+    background-image: url(../asset/back.jpg);
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
@@ -193,7 +193,7 @@ a:hover{
 .popup_user a:hover {
     color: white !important;
     width: 120px;
-    background-image: url(asset/back.jpg);
+    background-image: url(../asset/back.jpg);
 }
 .logo{
     padding: 0;
@@ -204,7 +204,7 @@ a:hover{
     justify-content: center;
     font-family: 'Sekuya', Courier, monospace;
     text-decoration: none;          
-    background-image:url(asset/back.jpg);
+    background-image:url(../asset/back.jpg);
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -412,7 +412,7 @@ body {
     text-decoration: none; 
     color: rgb(249, 77, 255);          
     font-family:"Sekuya" ,"popins", sans-serif;
-    background-image:url(asset/back.jpg);
+    background-image:url(../asset/back.jpg);
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -559,7 +559,7 @@ body {
     padding-bottom: 20px;
 }
 .title_body4{
-    background-image:url(asset/back.jpg);
+    background-image:url(../asset/back.jpg);
     background-size:cover;
     background-clip: text;
     color:transparent;
@@ -854,3 +854,4 @@ body {
     }
 
 }
+
