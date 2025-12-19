@@ -1,0 +1,121 @@
+/* --- STYLE CHO TRANG INTRO / ABOUT --- */
+
+/* 1. Phần Thống Kê (Body 2) */
+.body-stats {
+    width: 100%;
+    padding: 60px 0;
+    /* Nền đen mờ để làm nổi bật số liệu */
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.stat-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between; /* Chia đều 3 cột */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    flex: 1; /* Mỗi ô chiếm diện tích bằng nhau */
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05); /* Hiệu ứng kính mờ */
+    border-radius: 15px;
+    border: 1px solid rgba(249, 77, 255, 0.2);
+    transition: transform 0.3s ease;
+    min-width: 250px;
+}
+
+.stat-box:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(249, 77, 255, 0.2);
+}
+
+.stat-number {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(249, 77, 255); /* Màu tím neon */
+    font-family: "Sekuya", sans-serif;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.stat-box p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 2. Phần FAQ (Body 3) */
+.body-faq {
+    width: 100%;
+    padding: 60px 0;
+    /* Nền sáng hơn một chút để tách biệt */
+    background-color: rgba(255, 255, 255, 0.9); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ghi đè màu chữ title trong nền sáng */
+.body-faq .title_body2 {
+    color: #1a1a1a; 
+    margin-bottom: 40px;
+}
+
+.faq-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-left: 5px solid rgb(249, 77, 255); /* Viền trái màu tím */
+    transition: 0.3s;
+}
+
+.faq-item:hover {
+    transform: translateX(10px); /* Hiệu ứng trượt sang phải khi di chuột */
+}
+
+.faq-item h3 {
+    color: rgb(249, 77, 255);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.faq-item p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive cho Mobile */
+@media (max-width: 768px) {
+    .stat-container {
+        flex-direction: column; /* Xếp dọc trên điện thoại */
+    }
+    
+    .faq-container {
+        width: 90%;
+    }
+}
