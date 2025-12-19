@@ -38,7 +38,7 @@ if (loginForm) {
             localStorage.setItem("currentUser", JSON.stringify(validUser));
             
             alert("Đăng nhập thành công!");
-            window.location.href = '/html/main.html';
+            window.location.href = 'main.html';
         } else {
             // 5. Nếu sai
             alert("Email hoặc mật khẩu không chính xác!");
