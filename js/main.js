@@ -122,7 +122,7 @@ function checkLoginStatus() {
     // 3. NẾU KHÔNG CÓ DỮ LIỆU (Chưa đăng nhập) -> Đá về Login
     else {
         alert("Bạn chưa đăng nhập! Vui lòng quay lại trang đăng nhập.");
-        window.location.href = '/html/login.html'; // Sửa lại đường dẫn cho đúng thư mục của bạn
+        window.location.href = 'login.html'; // Sửa lại đường dẫn cho đúng thư mục của bạn
     }
 
     // 4. XỬ LÝ SỰ KIỆN LOGOUT
@@ -136,12 +136,13 @@ function checkLoginStatus() {
             alert("Đã đăng xuất!");
             
             // Chuyển về trang login
-            window.location.href = '/html/index.html'; 
+            window.location.href = 'index.html'; 
         });
     } else {
         console.error("Không tìm thấy nút Logout! Kiểm tra lại ID trong HTML.");
     }
 }
+
 
 
 
