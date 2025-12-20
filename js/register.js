@@ -1,6 +1,6 @@
 // if already logged in, redirect to home page
 if (localStorage.getItem("currentUser")) {
-  location.href = "/html/main.html";
+  location.href = "../html/main.html";
 }
 
 let form = document.querySelector("form");
