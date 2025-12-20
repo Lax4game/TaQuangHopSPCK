@@ -2,7 +2,7 @@
 
 // 1. Nếu đã đăng nhập rồi thì đá về trang chủ luôn
 if (localStorage.getItem("currentUser")) {
-  window.location.href = "../html/main.html";
+  window.location.href = "main.html";
 }
 
 const loginForm = document.querySelector('form');
